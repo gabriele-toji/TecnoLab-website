@@ -3,116 +3,201 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TecnoLab di Ciarla Maurizio | Assistenza Tecnica</title>
-  <meta name="description" content="TecnoLab di Ciarla Maurizio: assistenza tecnica professionale per dispositivi elettronici, riparazioni hardware e centro assistenza autorizzato.">
+  <title>TecnoLab di Ciarla Maurizio | Assistenza tecnica a Velletri</title>
+  <meta name="description" content="TecnoLab di Ciarla Maurizio offre assistenza tecnica e riparazione hardware di dispositivi elettronici a Velletri.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0E5EFF">
+  <meta property="og:title" content="TecnoLab di Ciarla Maurizio | Assistenza tecnica a Velletri">
+  <meta property="og:description" content="TecnoLab di Ciarla Maurizio offre assistenza tecnica e riparazione hardware di dispositivi elettronici a Velletri.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/">
+  <meta property="og:image" content="favicon.svg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="navbar">
-    <div class="container nav-content">
-      <div class="logo">TecnoLab</div>
-      <nav>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">TecnoLab</a>
+      <nav class="nav-links">
         <a href="#home">Home</a>
-        <a href="#azienda">Chi siamo</a>
         <a href="#servizi">Servizi</a>
-        <a href="marchi.html">Marchi</a>
         <a href="#recensioni">Recensioni</a>
         <a href="#contatti">Contatti</a>
+        <a href="marchi.html">Marchi</a>
       </nav>
     </div>
   </header>
 
-  <section class="hero" id="home">
-    <div class="container hero-content">
-      <div>
-        <h1>Riparazioni elettroniche professionali</h1>
-        <p>Assistenza tecnica specializzata per un'ampia gamma di dispositivi elettronici, con interventi hardware eseguiti da personale qualificato.</p>
-        <div class="hero-buttons">
-          <a href="tel:+390000000000" class="btn primary">Chiama ora</a>
-          <a href="https://wa.me/390000000000" class="btn secondary">WhatsApp</a>
-          <a href="#contatti" class="btn outline">Come raggiungerci</a>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Laboratorio</span>
+          <h1>Assistenza tecnica a Velletri</h1>
+          <p>Ci occupiamo della riparazione di una ampia gamma di dispositivi elettronici di tutte le marche.
+            Assistenza tecnica autorizzata per prodotti in garanzia per vari marchi
+          </p>
+          <div class="hero-actions">
+            <a href="tel:+393392190803" class="btn btn-primary">Chiama</a>
+            <a href="https://wa.me/393392190803" class="btn btn-secondary" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Via+Artemisia+Mammucari+67,+00049+Velletri+RM" class="btn btn-outline" target="_blank" rel="noopener">Indicazioni</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="hero-panel"> <img src="/assets/immagini/tecnologo.jpg" alt="TecnoLab"> </div>
+          <div class="hero-shape"></div>
+          <div class="hero-shape hero-shape--small"></div>
         </div>
       </div>
-      <div class="hero-image">
-        <img src="assets/hero.jpg" alt="Laboratorio TecnoLab">
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section" id="azienda">
-    <div class="container">
-      <h2>Chi siamo</h2>
-      <p>TecnoLab di Ciarla Maurizio è un laboratorio specializzato nell'assistenza tecnica e nella riparazione hardware di dispositivi elettronici. Offriamo un servizio professionale, affidabile e trasparente.</p>
-    </div>
-  </section>
+    <section class="section section-soft" id="servizi">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <span class="eyebrow">Servizi</span>
+            <h2>Riparazione:</h2>
+          </div>
+        </div>
 
-  <section class="section alt" id="servizi">
-    <div class="container">
-      <h2>Cosa facciamo</h2>
-      <div class="cards">
-        <div class="card"><h3>Diagnosi</h3><p>Analisi accurate dei guasti.</p></div>
-        <div class="card"><h3>Riparazioni hardware</h3><p>Interventi professionali su dispositivi elettronici.</p></div>
-        <div class="card"><h3>Assistenza</h3><p>Supporto tecnico in garanzia e fuori garanzia.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section brands-section">
-    <div class="container">
-      <div class="section-header">
-        <h2>Marchi in garanzia</h2>
-        <a href="marchi.html" class="btn small">Visualizza tutti</a>
-      </div>
-      <div class="brands-slider">
-        <div class="brands-track">
-          <div class="brand">Samsung</div>
-          <div class="brand">Sony</div>
-          <div class="brand">LG</div>
-          <div class="brand">Philips</div>
-          <div class="brand">Panasonic</div>
-          <div class="brand">Sharp</div>
-          <div class="brand">Samsung</div>
-          <div class="brand">Sony</div>
-          <div class="brand">LG</div>
-          <div class="brand">Philips</div>
-          <div class="brand">Panasonic</div>
-          <div class="brand">Sharp</div>
+        <div class="service-grid reveal">
+          <article class="service-card">
+            <h3>TV</h3>
+          </article>
+          <article class="service-card">
+            <h3>Smartphone</h3>
+          </article>
+          <article class="service-card">
+            <h3>Tablet</h3>
+          </article>
+          <article class="service-card">
+            <h3>Hi-Fi</h3>
+          </article>
+          <article class="service-card">
+            <h3>Ricetrasmettitori</h3>
+          </article>
+          <article class="service-card">
+            <h3>Schede elettroniche civili</h3>
+          </article>
+          <article class="service-card">
+            <h3>Schede elettroniche industriali</h3>
+          </article>
+          <article class="service-card">
+            <h3>Automotive</h3>
+          </article>
+          <article class="service-card">
+            <h3>Automazione civile e industriale</h3>
+          </article>
+          <article class="service-card">
+            <h3>Sistemi di amplificazione audio</h3>
+          </article>
+          <article class="service-card">
+            <h3>Strumenti musicali</h3>
+          </article>
+          <article class="service-card">
+            <h3>Videosorveglianza</h3>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section alt" id="recensioni">
-    <div class="container reviews">
-      <h2>La tua opinione conta</h2>
-      <p>Hai utilizzato i nostri servizi? Lascia una recensione su Google e aiutaci a migliorare.</p>
-      <a href="https://g.page/r/CRTJDmiTsqgnEBM/review" target="_blank" rel="noopener" class="btn primary">Lascia una recensione su Google</a>
-    </div>
-  </section>
-
-  <section class="section" id="contatti">
-    <div class="container contact-grid">
-      <div>
-        <h2>Contatti</h2>
-        <p><strong>TecnoLab di Ciarla Maurizio</strong></p>
-        <p>Telefono: +39 000 000 0000</p>
-        <p>Email: info@tecnolab.it</p>
-        <p>Indirizzo: Via da inserire</p>
+    <section class="section brand-section" aria-labelledby="brand-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Marchi</span>
+          <h2 id="brand-title">Marchi</h2>
+        </div>
+        <div class="brand-slider reveal">
+          <div class="brand-track" aria-hidden="true"></div>
+        </div>
       </div>
-      <div class="map-placeholder">Mappa Google</div>
-    </div>
-  </section>
+    </section>
+
+
+    <section class="section section-soft" id="recensioni">
+      <div class="container review-panel reveal">
+        <div class="review-copy">
+          <span class="eyebrow">Recensioni</span>
+          <h2>Lascia una recensione su Google</h2>
+          <p>Il tuo commento aiuta a migliorare il servizio.</p>
+        </div>
+        <div class="review-actions">
+          <a href="https://g.page/r/CRTJDmiTsqgnEBM/review" target="_blank" rel="noopener" class="btn btn-primary">Lascia una recensione</a>
+          <a href="https://g.page/r/CRTJDmiTsqgnEBM/review" target="_blank" rel="noopener" class="btn btn-secondary">Visualizza il profilo Google</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contatti">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="eyebrow">Contatti</span>
+          <h2>Contatta TecnoLab</h2>
+          <div class="contact-info-list">
+            <div>
+              <strong>Telefono</strong>
+              <p><a href="tel:+393392190803">339 219 0803</a></p>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <p><a href="https://wa.me/393392190803" target="_blank" rel="noopener">339 219 0803</a></p>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:roversat@yahoo.it">roversat@yahoo.it</a></p>
+            </div>
+            <div>
+              <strong>Indirizzo</strong>
+              <p>Via Artemisia Mammucari 67</p>
+              <p>00049 Velletri (RM)</p>
+            </div>
+          </div>
+        </div>
+        <div class="map-frame reveal">
+          <iframe src="https://www.google.com/maps?q=Via+Artemisia+Mammucari+67,+00049+Velletri+RM&output=embed" loading="lazy" title="Mappa TecnoLab" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
-    <div class="container footer-content">
-      <p>&copy; 2026 TecnoLab di Ciarla Maurizio. Tutti i diritti riservati.</p>
-      <a href="privacy.html">Privacy Policy</a>
+    <div class="container footer-inner">
+      <div>
+        <p><strong>Contatti</strong></p>
+        <a href="#contatti">Vai ai contatti</a>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="cookie.html">Cookie</a>
+      </div>
     </div>
   </footer>
 
   <script src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "TecnoLab di Ciarla Maurizio",
+    "url": "/",
+    "telephone": "+393392190803",
+    "email": "roversat@yahoo.it",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Artemisia Mammucari 67",
+      "addressLocality": "Velletri",
+      "addressRegion": "RM",
+      "postalCode": "00049",
+      "addressCountry": "IT"
+    },
+    "sameAs": ["https://g.page/r/CRTJDmiTsqgnEBM/review"]
+  }
+  </script>
 </body>
 </html>

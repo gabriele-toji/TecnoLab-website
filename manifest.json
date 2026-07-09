@@ -1,0 +1,16 @@
+{
+  "name": "TecnoLab di Ciarla Maurizio",
+  "short_name": "TecnoLab",
+  "description": "Sito ufficiale di TecnoLab di Ciarla Maurizio, assistenza tecnica elettronica a Velletri.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0E5EFF",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    }
+  ]
+}
